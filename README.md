@@ -26,7 +26,7 @@ My ideal was to build a system that worked with a smartphone connected to a serv
 
 The application starts with a login screen the first time you access it(after login the user section is saved by cookie), to create an user you need to go to the register screen which can be removed later(yes my application is not very secure), after that you can register products and users, the product can have a "subproduct"(the chicken was standart but the meat price was defined by the cut and weight thus making my life more difficult), then you need to create a sale group to determine how much of each product you have available to sell that day(this part where you also put all the meat prices, by reading a barcode), and finally you just need to select the sale group and start making sales, that you can create on the sales tab or by creating or clicking on top of a customer register, the products are defined by tag numbers like their old paper system, not by quantity, for example if we look at a sale with chickens number 2 and 3, it means that sale contains in reality 2 chickens with the tags number 2 and 3. \
 
-https://user-images.githubusercontent.com/59318991/163272139-6e635c14-9d7f-4542-a260-9460407621b1.mp4 \
+![app working](https://user-images.githubusercontent.com/59318991/163272139-6e635c14-9d7f-4542-a260-9460407621b1.mp4) \
 
 If you check the paid button the server will send a print event to another service running in a computer with a thermal printer to print the receipt. \
 
