@@ -28,7 +28,7 @@ The application starts with a login screen the first time you access it(after lo
 
 https://user-images.githubusercontent.com/59318991/163272139-6e635c14-9d7f-4542-a260-9460407621b1.mp4
 
-If you check the paid button the server will send a print event to another service running in a computer with a thermal printer to print the receipt. 
+If you check the paid button the server will send a print event to another service running in a computer with a thermal printer to print the receipt(in theory). 
 
 ## :poop: Behind The Scene(The Code)
 
