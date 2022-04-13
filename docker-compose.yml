@@ -1,0 +1,36 @@
+version: "3.3"
+
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    restart: always
+    depends_on:
+      - mongo
+    environment:
+      MONGO_USER: root
+      MONGO_PASS: pass
+    ports:
+      - 3030:3030
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    restart: always
+    volumes:
+      - ./database/localstorage:/app/database
+    depends_on:
+      - backend
+    environment:
+      PORT: 3000
+    ports:
+      - 3000:3000
+
+  mongo:
+    image: mongo
+    restart: always
+    volumes:
+      - ./database/mongodb:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pass

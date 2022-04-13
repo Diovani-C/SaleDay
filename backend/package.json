@@ -1,0 +1,23 @@
+{
+  "name": "sunday-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc && nodemon",
+    "start": "node ./build/server.js"
+  },
+  "keywords": [],
+  "author": "Diovani Eduardo Coelli",
+  "license": "GNU 3",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.9",
+    "socket.io": "^4.1.2"
+  }
+}
