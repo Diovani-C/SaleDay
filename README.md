@@ -9,7 +9,7 @@ Context: There is a small market in my neighbourhood that sells roast chicken an
 
 meat
 
- The problem is the way they use to control sale is apart from their main computer system because they need to have control over how many they sold and to who, which their computer system doesn't provide, so the solution for them was to use pen and paper, here are the photos I took(with permission) of their system.
+ The problem is the way they use to control sale is apart from their main computer system because they need to have control over how many they sold and to who, which their computer system doesn't provide, so the solution for them was to use pen and paper, here are the photos I took(with permission) of their system. \
  <img src="media/chicken.jpg" alt="chicken" height="200"/> \
  <img src="media/meat.jpg" alt="meat" height="200"/> \
  > I live in Brazil and we speak portuguese, so let me translate what was written on the photos \
