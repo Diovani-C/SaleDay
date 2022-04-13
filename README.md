@@ -6,8 +6,8 @@
 ## :exclamation: The Problem
 
 Context: There is a small market in my neighbourhood that sells roast chicken and roast meat every sunday. \
-![giff of the chicken]() \
-![giff of the meat]()
+
+meat
 
  The problem is the way they use to control sale is apart from their main computer system because they need to have control over how many they sold and to who, which their computer system doesn't provide, so the solution for them was to use pen and paper, here are the photos I took(with permission) of their system \
  ![chicken notes](media/chicken.jpg) \
@@ -25,7 +25,7 @@ My ideal was to build a system that worked with a smartphone connected to a serv
 ## :iphone: How The Application Works
 
 The application starts with a login screen the first time you access it(after login the user section is saved by cookie), to create an user you need to go to the register screen which can be removed later(yes my application is not very secure), after that you can register products and users, the product can have a "subproduct"(the chicken was standart but the meat price was defined by the cut and weight thus making my life more difficult), then you need to create a sale group to determine how much of each product you have available to sell that day(this part where you also put all the meat prices, by reading a barcode), and finally you just need to select the sale group and start making sales, that you can create on the sales tab or by creating or clicking on top of a customer register, the products are defined by tag numbers like their old paper system, not by quantity, for example if we look at a sale with chickens number 2 and 3, it means that sale contains in reality 2 chickens with the tags number 2 and 3. \
-![application working](.) \
+ \
 If you check the paid button the server will send a print event to another service running in a computer with a thermal printer to print the receipt. \
 
 ## :poop: Behind The Scene(The Code)
@@ -42,11 +42,11 @@ Finally the last big piece of software that was used in the project was [Docker]
 
 To run it locally you just need to run `docker-compose up -d —build` in the project folder, but if you want to run on the local network you will need to change the ip on the [frontend/server_ip.json](frontend/server_ip.json) and [backend/Dockerfile](backend/Dockerfile) files.
 
-## Mistakes That Now I Know I Did
+## :upside_down_face: Mistakes That Now I Know I Did
 
   To start, if you look at the code the first thing you notice is that there is no test, not a single one, and after spending hours on end to find bugs I realised that tests are not only important but essential to a project(I want my time back please). \
   My code doesn't have a clear pattern, and this led to a lot of confusion in how to make things when I was building it. For the most part I looked to examples on the internet to know how to build each piece of the application, but in the end it became a huge mess.
 
-## Conclusion
+## :thinking: Conclusion
 
 Building a webapp is very difficult, I mean my app is full of problems, runs locally and it still took me a lot of time to make it. After this experience my objective is to study the different patterns and algorithms, structure the code the right way and learn how to do proper testing to make my future life easier.
