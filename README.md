@@ -5,13 +5,13 @@
 
 ## :exclamation: The Problem
 
-Context: There is a small market in my neighbourhood that sells roast chicken and roast meat every sunday. \
+Context: There is a small market in my neighbourhood that sells roast chicken and roast meat every sunday.
 
-meat
+ <img src="https://user-images.githubusercontent.com/59318991/163290455-a60aa7d9-ea46-4afc-8dc2-d9dbd29312d0.gif" alt="roast chicken" height="400"/> <img src="https://user-images.githubusercontent.com/59318991/163290469-43545a18-0782-4efb-bc90-64357c807fd6.gif" alt="roast meat" height="400"/>
 
  The problem is the way they use to control sale is apart from their main computer system because they need to have control over how many they sold and to who, which their computer system doesn't provide, so the solution for them was to use pen and paper, here are the photos I took(with permission) of their system. \
  <img src="media/chicken.jpg" alt="chicken" height="200"/> \
- <img src="media/meat.jpg" alt="meat" height="200"/> \
+ <img src="media/meat.jpg" alt="meat" height="200"/> 
  > I live in Brazil and we speak portuguese, so let me translate what was written on the photos \
   > Frango = chicken \
   > Carne = meat
